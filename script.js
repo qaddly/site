@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Splash screen
+    const splash = document.getElementById('splash');
+    setTimeout(() => {
+        if (splash) {
+            splash.classList.add('hidden');
+            setTimeout(() => {
+                splash.remove();
+            }, 600);
+        }
+    }, 3000);
+
     // Burger menu
     const burger = document.querySelector('.burger');
     const navLinks = document.querySelector('.nav-links');
