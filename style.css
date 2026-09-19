@@ -13,6 +13,10 @@ body {
     overflow: hidden;
 }
 
+.content-wrapper {
+    min-height: 100vh;
+}
+
 /* Splash Screen */
 .splash-screen {
     position: fixed;
@@ -156,7 +160,7 @@ body {
 
 /* Mobile zoom */
 @media (max-width: 768px) {
-    body {
+    .content-wrapper {
         transform: scale(0.5);
         transform-origin: top left;
     }
