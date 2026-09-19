@@ -15,6 +15,8 @@ body {
 
 .content-wrapper {
     min-height: 100vh;
+    overflow: hidden;
+    width: 100vw;
 }
 
 /* Splash Screen */
@@ -160,8 +162,10 @@ body {
 
 /* Mobile zoom */
 @media (max-width: 768px) {
-    .content-wrapper {
+    html {
         transform: scale(0.3);
         transform-origin: top left;
+        width: 333.33vw;
+        height: 333.33vh;
     }
 }
