@@ -161,7 +161,7 @@ body {
 /* Mobile zoom */
 @media (max-width: 768px) {
     .content-wrapper {
-        transform: scale(0.5);
+        transform: scale(0.3);
         transform-origin: top left;
     }
 }
