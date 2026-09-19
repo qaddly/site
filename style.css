@@ -43,7 +43,7 @@ body {
 /* Telegram Button */
 .telegram-container {
     position: fixed;
-    top: 50px;
+    top: 88px;
     left: 10px;
     z-index: 1001;
 }
