@@ -26,7 +26,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -38,6 +37,7 @@ body {
     font-weight: bold;
     font-family: Arial, sans-serif;
     letter-spacing: 2px;
+    padding-left: 10px;
 }
 
 /* Splash Screen */
