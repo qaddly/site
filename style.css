@@ -189,3 +189,12 @@ body {
         height: 333.33vh;
     }
 }
+
+/* Desktop - reset zoom */
+@media (min-width: 769px) {
+    html {
+        transform: none;
+        width: 100vw;
+        height: 100vh;
+    }
+}
