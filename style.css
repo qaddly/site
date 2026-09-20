@@ -217,13 +217,13 @@ body {
     html, body {
         width: 100% !important;
         overflow: auto !important;
+        padding-top: 50px !important;
     }
 
     .content-wrapper {
         transform: scale(0.9);
         transform-origin: top left;
         width: 111.11%;
-        margin-top: 50px;
     }
 }
 
