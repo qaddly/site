@@ -171,11 +171,11 @@ body {
             opacity: 0;
         }
         60% {
-            transform: scale(0.66);
+            transform: scale(0.2);
             opacity: 1;
         }
         100% {
-            transform: scale(0.6);
+            transform: scale(0.3);
             opacity: 1;
         }
     }
@@ -189,7 +189,7 @@ body {
             opacity: 1;
         }
         100% {
-            transform: translate(-180px, 0) scale(0.6);
+            transform: translate(-60px, 0) scale(0.3);
             opacity: 1;
         }
     }
@@ -203,7 +203,7 @@ body {
             opacity: 1;
         }
         100% {
-            transform: translate(180px, 0) scale(0.6);
+            transform: translate(60px, 0) scale(0.3);
             opacity: 1;
         }
     }
