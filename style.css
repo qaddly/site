@@ -31,7 +31,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    right: 0;
+    width: 100%;
     z-index: 1000;
 }
 
@@ -213,14 +214,15 @@ body {
 
 /* Mobile zoom */
 @media (max-width: 768px) {
-    body {
+    html, body {
+        width: 100% !important;
         overflow: auto !important;
     }
 
     .content-wrapper {
         transform: scale(0.9);
         transform-origin: top left;
-        width: 111.11vw;
+        width: 111.11%;
         margin-top: 50px;
     }
 }
