@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         if (splash) {
             splash.classList.add('hidden');
+            if (window.innerWidth <= 768) {
+                document.body.style.transform = 'scale(0.9)';
+            }
             setTimeout(() => {
                 splash.remove();
             }, 600);
