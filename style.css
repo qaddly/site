@@ -11,6 +11,8 @@ html {
 body {
     background: #ffffff;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .content-wrapper {
@@ -209,19 +211,16 @@ body {
 
 /* Mobile zoom */
 @media (max-width: 768px) {
-    html {
-        transform: scale(0.3);
+    body {
+        overflow: auto !important;
+        transform: scale(1.5);
         transform-origin: top left;
-        width: 333.33vw;
-        height: 333.33vh;
     }
 }
 
-/* Desktop - reset zoom */
+/* Desktop - no zoom */
 @media (min-width: 769px) {
-    html {
-        transform: none;
-        width: 100vw;
-        height: 100vh;
+    body {
+        overflow: hidden;
     }
 }
