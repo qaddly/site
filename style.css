@@ -70,6 +70,32 @@ body {
     box-shadow: 0 6px 16px rgba(0, 136, 204, 0.6);
 }
 
+/* X Button */
+.x-container {
+    position: fixed;
+    top: 88px;
+    left: 270px;
+    z-index: 1001;
+}
+
+.x-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    background: #000000;
+    border-radius: 54px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.x-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
 /* Splash Screen */
 .splash-screen {
     position: fixed;
