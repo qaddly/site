@@ -240,6 +240,27 @@ body {
 }
 
 /* Mobile */
+@media (max-width: 900px) {
+    .social-buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .telegram-button,
+    .x-button,
+    .tiktok-button {
+        width: 160px;
+        height: 160px;
+    }
+
+    .telegram-button svg,
+    .x-button svg,
+    .tiktok-button svg {
+        width: 90px;
+        height: 90px;
+    }
+}
+
 @media (max-width: 768px) {
     @keyframes splashCenterIn {
         0% {
