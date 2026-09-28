@@ -44,11 +44,21 @@ body {
     padding-left: 10px;
 }
 
-/* Telegram Button */
-.telegram-container {
+/* Social Buttons Container */
+.social-buttons {
     position: fixed;
     top: 88px;
-    left: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    z-index: 1001;
+}
+
+/* Telegram Button */
+.telegram-container {
     z-index: 1001;
 }
 
@@ -72,9 +82,6 @@ body {
 
 /* X Button */
 .x-container {
-    position: fixed;
-    top: 88px;
-    left: 270px;
     z-index: 1001;
 }
 
@@ -98,9 +105,6 @@ body {
 
 /* TikTok Button */
 .tiktok-container {
-    position: fixed;
-    top: 88px;
-    left: 530px;
     z-index: 1001;
 }
 
